@@ -1,0 +1,22 @@
+{
+  "name": "iwanski/csvconverter",
+  "description": "Csv to array conversion library combined with fields validation",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aleksander Iwański",
+      "email": "olekiwanski@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "CSVConverter\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "require": {
+    "rakit/validation": "^1.4"
+  }
+}
